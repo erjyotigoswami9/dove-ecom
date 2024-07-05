@@ -1,0 +1,1650 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.offer1stDiv{
+    background-color: rgb(225,183,105);
+    color: white;
+    top: 0px;
+    z-index: 110;
+    font-weight: 600;
+    width: 100%;
+    height: fit-content;
+    padding: 16px;
+    text-align: center;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: fixed;
+}
+.closeButton{
+    float: right;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.marquesfirst{
+    display: none;
+}
+.notinMarquess{
+    align-items: center;
+}
+
+.subNavDiv{
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    top: 3px;
+    
+}
+
+.secondNavbarSelect{
+     color: blue;
+
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: auto;
+     text-align: center;
+}
+.haircareDiv{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 40px;
+}
+.haircareDiv>select{
+    width: 155px;
+    font-weight: 450;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 17px;
+}
+.haircareDiv>select>option{
+    /*  */
+    width: fit-content;
+    border: none;
+    outline: none;
+}
+
+.circularDivLogo{
+    border-radius: 50%;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+.circularDivLogo>img{
+    width: 80px;
+    height: 80px;
+}
+.stopTheBeautyTestButton{
+       border: none;
+       background-color: white;
+       color: black;
+       font-size: 17px;
+}
+.inputSearchDiv{
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchImage{
+    width: 40px;
+    height: 33.5px;
+    padding: 1px;
+}
+.searchInputText{
+    width: 120px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.imageProfile{
+    background-color: white;
+    border: none;
+}
+.imageProfile>img{
+    width: 45px;
+    height: 40px;
+}
+.imageProfile2{
+    background-color: white;
+    border:none;
+
+}
+.imageProfile2>img{
+    width: 35px;
+    height: 35px;
+}
+.videoPlayingDiv{
+    width: fit-content;
+    height: fit-content;
+    z-index: 10;
+    margin-top: 10%;
+}
+
+.videoPlaying{
+    width: 100%;
+    height: auto;
+}
+.doveSpotlight{
+    color: rgb(0,31,95);
+    /* border: 1px solid red; */
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.gridVideosItems{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10;
+    row-gap: 20;
+}
+.gridVideosItems2{
+   display: none;
+}
+.gridVideosItems3{
+    display: none;
+}
+.singleItemsDiv{
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: fit-content;
+}
+.singleItemsDiv>h4{
+    color: rgb(0,31,95);
+    padding-left: 12px;
+    padding-right: 12px;
+    letter-spacing: 0.3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.singleItemsDiv>h4:nth-child(2){
+    font-weight: 600;
+}
+.singleItemsDiv del{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.singleItemsDiv>img{
+    width: 60px;
+    height: 60px;
+    z-index: 5;
+    margin-top: -12%;
+    border-radius: 12px;
+    margin-left: 5%;
+}
+.videoSingleItem{
+    margin-top: -25.5%;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+.singleItemsDiv>h3{
+    color: white;
+    background-color: rgb(150,114,47);
+    font-weight: 600;
+    font-size: 13px;
+    padding: 8px;
+    border-radius: 0 80px 80px 0;
+    z-index: 20;
+    position: relative;
+    width: fit-content;
+    margin-left: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   letter-spacing: 0.6px;
+}
+.logoImagesStars{
+    margin: auto;
+    padding-left: 10px;
+}
+.logoImagesStars>img{
+    width: 20px;
+    height: 20px;
+}
+.addToBag{
+    background-color: rgb(0,31,95);
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.scrollNextButton{
+    background-color: transparent;
+    color: Gray;
+    border: none;
+    font-size: 40px;
+}
+.previousScrollButton{
+    background-color: transparent;
+    color: gray;
+    border: none;
+    font-size: 40px;
+}
+.firstDivPrevios{
+    width: fit-content;
+    margin-top: 15%;
+}
+.lastDivNext{
+    width: fit-content;
+    margin-top: 15%;
+}
+.copyrightDiv{
+    width: 100%;
+    height: auto;
+    background-color: rgb(20,44,108);
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+    
+    letter-spacing: 0.6px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.threeDivsPNV{
+    display: flex;
+    
+}
+.footerDiv{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  
+    background-color: rgb(248,253,254) ;
+}
+.footerDiv>div{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid orange; */
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footerDiv>div>div>p{
+   /* border: 1px solid rebeccapurple; */
+   width: fit-content;
+   font-weight: 500;
+   font-size: 16px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   text-align: left;
+}
+.footerDiv>div img:nth-child(1){
+    width: 60%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+.footerDiv>div img:nth-child(2){
+    width: 50%;
+    height: auto;
+    /* border: 1px solid black; */
+    
+}
+.footerDiv>div>div{
+    /* border: 1px solid blue; */
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: -10px;
+    text-align: left;
+}
+.secondFooterDiv{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.secondFooterDiv>div:nth-child(1){
+    font-size: 16px;
+}
+.secondFooterDiv>div{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.secondFooterDiv>div:hover{
+    text-decoration: underline;
+    color: orange;
+    cursor: pointer;
+}
+.secondFooterDiv>div:nth-child(1):hover{
+    text-decoration: none;
+    color: black;
+    cursor:default;
+}
+.fourthFooterDiv{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fourthFooterDiv>div{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+    
+}
+.fourthFooterDiv>div>div{
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: fit-content;
+    padding: 10px;
+    font-size: 14px;
+}
+.fourthFooterDiv>div:nth-child(5)>div img{
+   border: 1px solid white;
+   width: 20px;
+   height: 20px;
+}
+.fourthFooterDiv>div p{
+    width: fit-content;
+    /* border: 1px solid blue; */
+    font-size: 14px;
+}
+.fourthFooterDiv>div:hover{
+    cursor: pointer;
+}
+.fourthFooterDiv>div:nth-child(1){
+    font-size: 16px;
+    cursor: default;
+}
+
+.whatsappDiv>img{
+    width: 50px;
+    height: 50px;
+    /* z-index: 200; */
+   top: 85%;
+   left: 88%;
+   position: fixed;
+   
+}
+.textDiv{
+    background-color: rgb(229,235,242);
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.textDiv>p:nth-child(1){
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+.textDiv>p:nth-child(2){
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    line-height: 1.7em;
+    padding-bottom: 30px;
+}
+.subNavbarMediaResponsive{
+    display: none;
+}
+.searchNavbarResponsiveDiv{
+    display: none;
+}
+.ModalDivItemsList{
+    display: none;
+}
+.blueColorH1Data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.blueColorH1Data>p{
+    color: rgb(15,44,119);
+   font-size: 14px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin-left: 20px;
+   text-align: left;
+}
+.blueColorH1Data>h1{
+    text-align: left;
+    color: rgb(22,50,109);
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    letter-spacing: 0.5px;
+}
+.greyColorSortDiv{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(247,247,247);
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.greyColorSortDiv>select{
+   margin-left: 80%;
+   border: none;
+   outline: none;
+   padding: 6px;
+   font-size: 16px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   background-color: transparent;
+}
+.greyColorSortDiv>select>option{
+    border: none;
+    outline: none;
+}
+
+/* gridImages1 */
+
+.gridImages1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-area: 10px;
+}
+.gridImages1:hover{
+    cursor: pointer;
+}
+.gridImages1>div{
+    border: 1px solid white;
+    text-align: center;
+}
+.gridImages1>div>img{
+    width: 80%;
+    height: auto;
+    border: 1px solid white;
+}
+.gridImages1>div>p{
+    width: 84%;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.gridImages1>div>p:hover{
+    color: orange;
+}
+.gridImages1>div>div{
+    display: flex;
+    border: 1px solid white;
+    width: fit-content;
+    margin: auto;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+/* gridImages2 */
+
+.gridImages2:hover{
+    cursor: pointer;
+}
+.gridImages2>div{
+    border: 1px solid white;
+    text-align: center;
+}
+.gridImages2>div>img{
+    width: 80%;
+    height: auto;
+    border: 1px solid white;
+}
+.gridImages2>div>p{
+    width: 84%;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.gridImages2>div>p:hover{
+    color: orange;
+}
+.gridImages2>div>div{
+    display: flex;
+    border: 1px solid white;
+    width: fit-content;
+    margin: auto;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.gridImages2>div>h4>del{
+    font-weight: 500;
+    font-size: 14px;
+    color: gray;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.gridImages2>div>h4>span{
+    color: orange;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/* gridImagesOfItemsDisplay4Here */
+
+
+.gridImagesOfItemsDisplay4Here{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-area: 10px;
+}
+.gridImagesOfItemsDisplay4Here:hover{
+    cursor: pointer;
+}
+.gridImagesOfItemsDisplay4Here>div{
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.gridImagesOfItemsDisplay4Here>div>img{
+    width: 80%;
+    height: auto;
+    border: 1px solid white;
+}
+.gridImagesOfItemsDisplay4Here>div>p{
+    width: 84%;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.gridImagesOfItemsDisplay4Here>div>p:hover{
+    color: orange;
+}
+.gridImagesOfItemsDisplay4Here>div>div{
+    display: flex;
+    border: 1px solid white;
+    width: fit-content;
+    margin: auto;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.gridImagesOfItemsDisplay4Here>div>h4>del{
+    font-weight: 500;
+    font-size: 14px;
+    color: gray;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.gridImagesOfItemsDisplay4Here>div>h4>span{
+    color: orange;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+/* gridImage3 */
+.gridImages3:hover{
+    cursor: pointer;
+}
+.gridImages3>div{
+    border: 1px solid white;
+    text-align: center;
+}
+.gridImages3>div>img{
+    width: 80%;
+    height: auto;
+    border: 1px solid white;
+}
+.gridImages3>div>p{
+    width: 84%;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.gridImages3>div>p:hover{
+    color: orange;
+}
+.gridImages3>div>div{
+    display: flex;
+    border: 1px solid white;
+    width: fit-content;
+    margin: auto;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.gridImages3>div>h4>del{
+    font-weight: 500;
+    font-size: 14px;
+    color: gray;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.gridImages3>div>h4>span{
+    color: orange;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btnGram{
+    border: none;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: rgb(0,31,95);
+    color: white;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+}
+.gridImages1>div>h4>del{
+    font-weight: 500;
+    font-size: 14px;
+    color: gray;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.gridImages1>div>h4>span{
+    color: orange;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.btnGram2{
+    padding: 8px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 6px;
+    background-color: rgb(0,31,95);
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+.gridImages2{
+    display: none;
+}
+.gridImages3{
+    display: none;
+}
+
+@media  all and (max-width:1200px) {
+    .videoPlayingDiv{
+        margin-top: 20%;
+    }
+    .textDiv>p:nth-child(2){
+        width: 50%;
+    }
+}
+
+@media  all and (max-width:900px) {
+    .gridImages1{
+        display: none;
+    }
+    .gridImages3{
+        display: none;
+    }
+    .gridImages2{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+    }
+    .gridVideosItems{
+        display: none;
+    }
+    .gridVideosItems3{
+        display: none;
+    }
+    .gridVideosItems2{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10;
+        row-gap: 20;
+    }
+    .subNavDiv{
+        padding-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .offer1stDiv{
+        position: relative;
+    }
+    .footerDiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   }
+   .videoPlayingDiv{
+    margin-top: 2%;
+   }
+   .textDiv>p:nth-child(2){
+      width: 70%;
+   }
+   .gridImagesOfItemsDisplay4Here{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       grid-area: 10px;
+    }
+    .greyColorSortDiv>select{
+        margin-left: 70%;
+    }
+}
+@media  all and (max-width:500px) {
+    .marquesfirst{
+        display: block;
+    }
+    .notinMarquess{
+        display: none;
+    }
+    .gridVideosItems2{
+        display: none;
+    }
+    .gridVideosItems{
+        display: none;
+    }
+    .gridVideosItems3{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10;
+    }
+    .gridImages1{
+        display: none;
+    }
+    .gridImages2{
+        display: none;
+    }
+    .gridImages3{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+   
+    .footerDiv{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+    }
+    .subNavDiv{
+        display: none;
+    }
+    .subNavbarMediaResponsive{
+        border: 1px solid white;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* padding-top: 10px; */
+        /* padding-bottom: 10px; */
+      background-color: white;
+     top: 50px;
+      position: fixed;
+      z-index: 40;
+    }
+    .subNavbarMediaResponsive>div{
+        border: 1px solid white;
+        padding-top: 10px;
+    }
+    .videoPlayingDiv{
+        margin-top: 30%;
+    }
+    .offer1stDiv{
+        position: sticky;
+        z-index: 40;
+    }
+    .subNavbarMediaResponsive>div:nth-child(1)>button{
+        background-color: white;
+        color: black;
+        border: none;
+        padding: 3px;
+        padding-left: 6px;
+        padding-right: 6px;
+        text-align: center;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .subNavbarMediaResponsive>div:nth-child(1)>button>hr{
+        width: 18px;
+        border: 1px solid black;
+    }
+    .subNavbarMediaResponsive>div:nth-child(2)>img{
+        width: 60px;
+        height: 50px;
+        border: 1px solid white;
+    }
+    .subNavbarMediaResponsive>div:nth-child(3){
+        display: flex;
+        justify-content: space-around;
+    }
+    .searchNavbarResponsiveDiv{
+        display: flex;
+        text-align: left;
+        position: fixed;
+        z-index: 40;
+        top: 116px;
+        background-color: white;
+        padding-bottom: 3px;
+        border-bottom: 0.5px solid rgba(230, 206, 196, 0.69);
+        width: 100%;
+    }
+    .searchNavbarResponsiveDiv>div{
+        width: 100%;
+        background-color: white;
+        color: gray;
+        border-radius: 22px;
+        padding-left: 7px;
+        padding-right: 7px;
+        border: 1px solid grey;
+    }
+    .searchNavbarResponsiveDiv input{
+        /* border: 1px solid red; */
+        width: 76%;
+    }
+    .ModalDivItemsList{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: 1px solid white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        position: relative;
+        top: 100px;
+        background-color: white;
+        width: 100%;
+        padding-top: 10px;
+        /* padding-bottom: 10px; */
+    }
+    .ModalDivItemsList>div{
+        margin-left: 5%;
+        border: 1px solid white;
+        width: 80%;
+        text-align: left;
+    }
+    .ModalDivItemsList>div select{
+        border: 1px solid white;
+    }
+    .ModalDivItemsList>div:nth-child(5) select{
+        margin-left: 20px;
+    }
+    .ModalDivItemsList>div:nth-child(6){
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .ModalDivItemsList>div:nth-child(6) button{
+        border: 1px solid white;
+        margin-left: 0px;
+    }
+    .ModalDivItemsList>div button{
+        border: none;
+        background-color: white;
+        color: black;
+        font-size: 18px;
+        margin-left: 6%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding: 10px;
+    }
+    .ModalDivItemsList>div:nth-child(11){
+        width: 100%;
+        text-align: left;
+        border: 1px solid rgb(20,44,108);
+        background-color: rgb(20,44,108);
+        
+        padding: 0;
+        margin: 0;
+    }
+    .ModalDivItemsList>div:nth-child(11)>button>img{
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+    .ModalDivItemsList>div:nth-child(11)>button{
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(20,44,108);
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        margin: 0;
+        padding-left: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    .gridImagesOfItemsDisplay4Here{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-area: 10px;
+    }
+    .greyColorSortDiv>select{
+        margin-left: 50%;
+    }
+}
+@media  all and (max-width:300px) {
+    
+    .footerDiv{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+    }
+    .videoPlayingDiv{
+       margin-top: 30%;
+    }
+    .gridImagesOfItemsDisplay4Here{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-area: 10px;
+    }
+    .greyColorSortDiv>select{
+        margin-left: 30%;
+    }
+}
+
+.singleItemDivOfProduct{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    border: 1px solid white;
+   }
+   .singleItemDivOfProduct>p{
+    display: flex;
+   }
+   .ImageAndDescription{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    border: 1px solid white;
+   }
+   .ImageAndDescription>div{
+    border: 1px solid white;
+    text-align: center;
+   }
+   .ImageAndDescription>div:nth-child(1)>img:nth-child(1){
+    width: 70%;
+    height: auto;
+   }
+   .ImageAndDescription>div:nth-child(1)>div{
+    display: flex;
+    gap: 4%;
+    border: 1px solid white;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+   }
+   .ImageAndDescription>div:nth-child(1)>div img{
+      border: 1px solid white;
+       width: 12%;
+       height: auto;
+   }
+   .ImageAndDescription>div:nth-child(2){
+    text-align: left;
+    padding-left: 10%;
+
+   }
+   .ImageAndDescription>div:nth-child(2)>p:nth-child(1){
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid white;
+    margin-top: 4%;
+    color: rgb(0,55,123);
+    font-weight: 600;
+    font-size: 19px;
+   }
+   .imgReviews{
+    border: 1px solid white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   }
+   .imgReviews>span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+   }
+    .imgReviews>button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    color: orange;
+    text-decoration: underline;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+   }
+   .btnOfferDivData{
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    
+   }
+   .btnOfferDivData>button{
+    border: rgb(0,31,95);
+    color: white;
+    border-radius: 4px;
+    width: 60px;
+    height: 30px;
+    padding: 4px;
+    background-color: rgb(0,31,95);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13.5px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+   }
+   .btnOfferDivData>p{
+    padding-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: rgb(110,196,200);
+    font-weight: 600;
+   }
+   .mrpProductDiv{
+    display: flex;
+    align-items: center;
+   }
+   .mrpProductDiv>p{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(13,65,130);
+   }
+   .mrpProductDiv>p>button{
+    background-color: rgb(0,55,123) ;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    border: rgb(0,55,123);
+   }
+   .mrpProductDiv>p>span{
+    font-size: 12px;
+    font-weight: 600;
+    font-style: italic;
+   }
+   .sizeShowDiv>p{
+      color: gray;
+      font-weight: 500;
+      font-size: 15px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+   }
+   .sizeShowDiv>button{
+    background-color: rgb(0,55,123) ;
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+    border: rgb(0,55,123);
+    border-radius: 15px;
+   }
+   .sizeShowDiv>div{
+    border: 1px solid rgba(207, 199, 199, 0.429);
+    width: fit-content;
+    padding: 5px;
+   }
+   .sizeShowDiv>div>button{
+    border: 1px solid white;
+    background-color: white;
+    font-size: 24px;
+    margin-left: 20px;
+   }
+   .sizeShowDiv>div>button:nth-child(1){ 
+      margin-right: 20px;
+      margin-left: 0px;
+    }
+    .sizeShowDiv>div>span{
+        font-size: 18px;
+    }
+    .addToBagOrBuyNowDiv{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        border: 1px solid white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    .addToBagOrBuyNowDiv>button:nth-child(1){
+        background-color: rgb(0,55,123) ;
+        border: none;
+        color: white;
+        padding-right: 8%;
+        padding-left: 8%;
+        font-size: 16px;
+        margin-right: 1%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .addToBagOrBuyNowDiv>button:nth-child(2){
+        background-color: rgb(171,140,82);
+        color: white;
+        padding-left: 8%;
+        padding-right: 8%;
+        font-size: 16px;
+        border: none;
+        margin-left: 1%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .socialMediaDiv{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .socialMediaDiv>span{
+        font-size: 16px;
+        color: gray;
+        font-weight: 600;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    .socialMediaDiv>div{
+        display: flex;
+        align-items: center;
+    }
+    .showPicsDiv{
+        width: 80%;
+        margin: auto;
+        border: 1px solid white;
+        margin-top: 40px;
+    }
+    .showPicsDiv>img{
+        width: 100%;
+        margin-bottom: 5px;
+        height: auto;
+        border:  1px solid white;
+    }
+    .BtnDetailsProductDiv{
+        display: flex;
+        border: 1px solid white;
+        gap: 1%;
+        margin-top: 40px;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(186, 180, 180, 0.578);
+    }
+    .BtnDetailsProductDiv>button{
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        border-radius: 12px 12px 0px 0px;
+        border: 1px solid rgba(186, 180, 180, 0.578);
+        border-bottom: none;
+        background-color: white;
+        cursor: pointer;
+    }
+    .BtnDetailsProductDiv>button:focus{
+        color: navy;
+        border-top: 3px solid navy
+    }
+    .BtnDetailsProductDiv>button>div{
+        display: none;
+    }
+    .btnDataShowAboutProductDiv{
+        border: 1px solid white;
+        
+    }
+    .btnDataShowAboutProductDiv>div{
+        padding-left: 5%;
+        margin-top: 3%;
+    }
+    .btnDataShowAboutProductDiv>div>ul>li{
+        padding-left: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+    }
+    .btnDataShowAboutProductDiv>div>div>p{
+        width: 85%;
+        text-align: justify;
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        letter-spacing: 0.5px;
+    }
+    .btnDataShowAboutProductDiv>div>div li{
+        font-size: 16px;
+        width: 85%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+    }
+    .btnDataShowAboutProductDiv>div:nth-child(3)>ul>li>b{
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.3px;
+    }
+    .btnDataShowAboutProductDiv>div:nth-child(3)>ul>li{
+        font-size: 15px;
+        width: 85%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+    }
+    .btnDataShowAboutProductDiv>div:nth-child(4){
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        letter-spacing: 0.5px;
+    }
+    .threeDivReviewsbtns{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        border: 1px solid white;
+        align-items: center;
+    }
+    .threeDivReviewsbtns>div{
+        border: 1px solid white;
+        padding-left: 8%;
+    }
+    .threeDivReviewsbtns>div>div{
+        display: flex;
+        gap: 10px;
+        border: 1px solid white;
+        font-size: 16px;
+        font-weight: 400;
+        padding-right: 10%;
+    }
+    .threeDivReviewsbtns>div>p{
+        border: 1px solid white;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .hrOrangeColor{
+        border: 8px solid rgb(228,164,100);
+        width: 20%;
+        height: auto;
+    }
+    .hrGreyColor{
+        border: 8px solid rgba(228, 219, 219, 0.46);
+        width: 20%;
+        height: auto;
+    }
+    .writeReviewButton{
+        background-color: rgb(228,164,100);
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+        padding-left: 9%;
+        padding-right: 9%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        border: 1px solid white;
+    }
+    .mostRecentReviewP{
+        color: rgb(228,164,100);
+        font-weight: 500;
+        padding-left: 3%;
+    }
+    .mostRecentReviewP>div{
+        display: flex;
+        border: 1px solid white;
+        text-align: left;
+        align-items: center;
+    }
+    .mostRecentReviewP>div>img{
+        border: 1px solid white;
+    }
+    .mostRecentReviewP>div>button{
+        background-color: rgb(228,164,100) ;
+        border: 1px solid rgb(228,164,100);
+        color: white;
+        font-weight: 600;
+        font-size: 14px;
+       margin-left: 10px;
+    }
+    .blackDivText{
+        color: black;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 40px;
+        width: 50%;
+    }
+    
+    @media all and (max-width:900px) {
+        .BtnDetailsProductDiv{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin-top: 40px;
+            border: 1px solid white;
+            column-gap: 3px;
+            background-color: white;
+            font-size: 18px;
+        }
+        .BtnDetailsProductDiv>button{
+            border: 1px solid rgb(245,239,235);
+            background-color: rgb(245,239,235);
+            text-align: left;
+            margin-top: 5px;
+            border-radius: 0px;
+            padding: 10px;
+            font-weight: 600;
+            font-size: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+        .threeDivReviewsbtns{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            column-gap: 20px;
+        
+        }
+        .BtnDetailsProductDiv>button>div{
+            display: block;
+            float: right;
+            border: 1px solid transparent;
+        }
+        .ImageAndDescription{
+             display: grid;
+             grid-template-columns: repeat(1,1fr);
+             gap: 10px;
+             border: 1px solid white;
+        }
+    }
+
+    .loginDiv{
+        text-align: center;
+        border: 1px solid white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 60%;
+        margin: auto;
+    }
+    .loginDiv>p{
+        font-size: 16px;
+    }
+    .signUpBtn{
+        background-color: white;
+        cursor: pointer;
+        border: none;
+        font-size: 14px;
+    }
+    .signUpBtn:hover{
+        color: rgba(205, 185, 146, 0.641);
+    }
+    .signUpBtn>div{
+        display: flex;
+    }
+    .loginDiv>form{
+        border: 1px solid white;
+        width: 60%;
+        margin: auto;
+    }
+    
+    .loginDiv>form>input:nth-child(1){
+        width: 80%;
+        height: 20px;
+        padding: 10px;
+        margin-top: 10px;
+        border: 0.4px solid lightgrey;
+        font-size: 14px;
+    }
+    .loginDiv>form>input:nth-child(2){
+        width: 80%;
+        height: 20px;
+        padding: 10px;
+        margin-top: 10px;
+        border: 0.4px solid lightgrey;
+        font-size: 14px;
+    }
+    .loginDiv>form>input:focus{
+        outline: 0.3px solid black;
+    }
+    .forgetPswdBtn{
+        background-color: white;
+        font-size: 14px;
+        border: 1px solid white;
+        cursor: pointer;
+        margin-left: 45%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .signInBtnYellowColor{
+        padding-left: 4%;
+        padding-right: 4%;
+        background-color: rgb(171,140,82) ;
+        border: 1px solid rgb(171,140,82);
+        color: white;
+        font-size: 15px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-weight: 500;
+        margin-right: 10px;
+        margin-top: 20px;
+        
+    }
+    .signInBtnYellowColor:hover{
+        cursor: pointer;
+        background-color: rgb(142, 116, 68);
+    }
+    .returnToStoreBtn{
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        background-color: rgb(0,31,95);
+        border: 1px solid rgb(0,31,95);
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .returnToStoreBtn:hover{
+        cursor: pointer;
+    }
+
+    @media all and (max-width:900px) {
+        .forgetPswdBtn{
+            margin-left: 10%;
+        }
+        .loginDiv>form{
+            width: 100%;
+        }
+        .signInBtnYellowColor, .returnToStoreBtn{
+            padding-left: 8%;
+            padding-right: 8%;
+            padding-top: 4%;
+            padding-bottom: 4%;
+        }
+    }
+
+    .cartDiv{
+        border: 1px solid white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        width: fit-content;
+        padding: 20px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+       }
+       .cartDiv>div:nth-child(1){
+        background-color: rgb(213,172,94);
+        padding: 10px;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 50px;
+       }
+       .secondDivItemListShow{
+        border: 1px solid white;
+        display: flex;
+        gap: 20px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+       }
+       .secondDivItemListShow>img{
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+       }
+       .secondDivItemListShow>div>p:nth-child(1){
+        padding-left: 4%;
+        width: 80%;
+        font-size: 13px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+       }
+       .secondDivItemListShow>div>p:nth-child(2){
+        font-weight: 600;
+        font-size: 14px;
+        width: 50%;
+        padding-left: 4%;
+       }
+       .secondDivItemListShow>div>p:nth-child(2)>span{
+        color: rgb(213,172,94) ;
+       }
+       .quantityDivShowInCart{
+        border: 1px solid lightgrey;
+        width: fit-content;
+        padding: 2px;
+        margin-left: 8%;
+       }
+       @media all and (max-width:500px) {
+           .secondDivItemListShow{
+            display: flex;
+            flex-direction: column;
+           }
+       }
+       .quantityDivShowInCart>button{
+        background-color: white;
+        font-size: 22px;
+        border: 1px solid white;
+        margin-left: 10px;
+        margin-right: 10px;
+       }
+       .thirdCouponDivInCart{
+        background-color: rgb(0, 31, 95);
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        padding: 10px;
+        font-weight: 600;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 50px;
+        margin-bottom: 10px;
+       }
+       .fourthChargesDivCheckoutIncart{
+          margin-top: 10px;
+       }
+       .fourthChargesDivCheckoutIncart>div{
+        background-color: rgb(239, 242, 246);
+        padding: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        letter-spacing: 0.5px;
+       }
+       .fourthChargesDivCheckoutIncart>div>div{
+         display: flex;
+         justify-content: space-between;
+         padding-right: 10px;
+         padding-left: 10px;
+         margin-top: 10px;
+         margin-bottom: 10px;
+       }
+       .priceCheckoutDivInCart{
+        display: flex;
+       }
+       .priceCheckoutDivInCart>button:nth-child(1){
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        width: 50%;
+        background-color: rgb(239, 242, 246);
+        display: flex;
+        justify-content: space-around;
+        border: none;
+        cursor: pointer;
+        align-items: center;
+       }
+       .priceCheckoutDivInCart>button:nth-child(1)>div:nth-child(2)>div{
+         font-stretch: expanded;
+         font-weight: 400;
+         color: grey;
+         border: none;
+         background-color: transparent;
+         cursor: pointer;
+         font-size: 20px;
+       }
+       .greenColorShippingPriceDiv{
+        color: lightgreen;
+        font-weight: 600;
+       }
+       .marqueeVShow{
+        margin-left: 20px;
+          width: 30px;
+          font-weight: 100;
+          color: lightgrey;
+          opacity: 0.5;
+       }
+       .checkoutBtnInCart{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(0, 31, 95);
+        border : 1px solid rgb(0, 31, 95);
+        color: white;
+        font-weight: 600px;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 18px;
+        width: 50%;
+       }
+       .myShoppingBagH1{
+        border: 1px solid white;
+        width: fit-content;
+        text-shadow: 1px 1px lightgrey;
+        margin: auto;
+        font-weight: 100;
+        letter-spacing: 0.5px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 30px;
+       }
+
