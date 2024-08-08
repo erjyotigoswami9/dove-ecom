@@ -30,7 +30,7 @@ export const addToCartReducer = (state={ data : [] }, action)=>{
                         }else{
                             action.payload.quantity = action.payload.quantity + 1 ;
                             localStorage.setItem("cartItems",JSON.stringify([action.payload])) ;
-                            return { data : action.payload } ;
+                            return { data : [ action.payload ] } ;
                         }
                         
                         
@@ -64,7 +64,9 @@ export const addToCartReducer = (state={ data : [] }, action)=>{
                          else{
                             return state ;
                          }
-        case "EmptyCart" : return { data  : [] } ;
+        case "EmptyCart" : let arEmpty1 = []
+                         localStorage.setItem("cartItems",JSON.stringify(arEmpty1)) ;
+                         return { data  : [] } ;
         default : return state ;
     }
 }
