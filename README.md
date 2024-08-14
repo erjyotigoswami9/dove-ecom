@@ -29,6 +29,7 @@
                     <li>Cart</li>
                     <li>Login</li>
                     <li>Logout</li>
+                    <li>Sliders</li>
                     <li>Home Page</li>
                     <li>Product List Display</li>
                     <li>Good UI/UX Designing</li>
